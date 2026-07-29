@@ -4,8 +4,10 @@
 
 <h1 align="center">Linux Administration</h1>
 
+<p align="center">
 <strong>Part of the Charlie Whiskey Security Labs Enterprise</strong><br>
 Hands-on Linux administration, troubleshooting, and system fundamentals with a focus on security and platform engineering.
+</p>
 
 <p align="center">
   🏢 <a href="https://github.com/CharlieWhiskeySec/charlie-whiskey-security-labs"><strong>Enterprise Hub</strong></a>
