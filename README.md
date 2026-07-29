@@ -66,4 +66,16 @@ As the Linux foundation develops, this repository will expand into practical adm
 
 ---
 
-Part of the **Charlie Whiskey Security Labs** portfolio.
+## CWSL Enterprise Projects
+
+This project is part of the **Charlie Whiskey Security Labs (CWSL)** simulated enterprise environment.
+
+| Repository | Purpose |
+|---|---|
+| 🛡️ [Charlie Whiskey Security Labs](https://github.com/CharlieWhiskeySec/charlie-whiskey-security-labs) | Central enterprise hub, architecture, roadmap, and project documentation |
+| 🖥️ [Active Directory Security Lab](https://github.com/CharlieWhiskeySec/active-directory-security-lab) | Enterprise identity infrastructure, authentication, access control, and Windows security telemetry |
+| 📊 [Splunk Detection Engineering](https://github.com/CharlieWhiskeySec/splunk-detections) | SIEM engineering, SPL development, detection logic, and Windows security monitoring |
+| 🔍 [SOC Investigations](https://github.com/CharlieWhiskeySec/soc-investigations) | Security investigations, alert triage, and incident analysis |
+| 🌐 [Traffic Analysis](https://github.com/CharlieWhiskeySec/traffic-analysis) | Network traffic analysis and packet investigation |
+| 🐧 [Linux Administration](https://github.com/CharlieWhiskeySec/linux-administration) | Linux administration, infrastructure fundamentals, permissions, services, and networking |
+```
