@@ -1,4 +1,8 @@
-# Linux Administration
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/02a7bd81-ee10-4cf1-aef9-c0649a03a4ea" width="200">
+</p>
+
+<h1 align="center">Linux Administration</h1>
 
 Hands-on Linux administration, troubleshooting, and system fundamentals with a focus on security and platform engineering.
 
