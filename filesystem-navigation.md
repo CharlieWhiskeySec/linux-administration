@@ -1,107 +1,51 @@
-# Filesystem Navigation
+# Linux Command Reference
 
-Linux is organized around a hierarchical filesystem. Before working with files, applications, logs, or system configuration, it is important to understand how to identify your current location and navigate between directories.
+A quick-reference guide to Linux commands I've used throughout my hands-on Linux administration work.
 
----
+## Navigation & Filesystem
 
-## `pwd` — Print Working Directory
+| Command | Purpose |
+|---|---|
+| `pwd` | Displays the full path of the current working directory. |
+| `ls` | Lists files and directories in the current directory. |
+| `cd <directory>` | Changes the current working directory to the specified directory. |
+| `cd ..` | Moves up one level to the parent directory. |
 
-Displays the full path of the directory you are currently working in.
+## File Management
 
-```bash
-pwd
-```
+| Command | Purpose |
+|---|---|
+| `cp <source> <destination>` | Copies a file or directory to another location. |
+| `rm <file>` | Removes a file. |
+| `cat <file>` | Displays the contents of a file in the terminal. |
 
-Example output:
+## Users & Identity
 
-```text
-/home/chris
-```
+| Command | Purpose |
+|---|---|
+| `whoami` | Displays the username of the currently logged-in user. |
+| `adduser <username>` | Creates a new Linux user account. |
 
-This is useful for confirming your location in the filesystem before navigating to another directory or working with files.
+## System Information
 
----
+*Commands will be added as they are used.*
 
-## `ls` — List Directory Contents
+## Processes & Services
 
-Displays the files and directories contained within the current directory.
+*Commands will be added as they are used.*
 
-```bash
-ls
-```
+## Networking
 
-Example:
+*Commands will be added as they are used.*
 
-```text
-Documents  Downloads  Projects
-```
+## Permissions
 
-`ls` can also be used to view the contents of another directory without navigating into it:
+*Commands will be added as they are used.*
 
-```bash
-ls /var
-```
+## Package Management
 
----
+*Commands will be added as they are used.*
 
-## `cd` — Change Directory
+## Logs & Troubleshooting
 
-Changes the current working directory.
-
-```bash
-cd Documents
-```
-
-The current location can then be verified with:
-
-```bash
-pwd
-```
-
-Example output:
-
-```text
-/home/chris/Documents
-```
-
----
-
-## `cd ..` — Move Up One Directory
-
-`..` represents the parent directory of the current location.
-
-For example, when working in:
-
-```text
-/home/chris/Documents
-```
-
-Running:
-
-```bash
-cd ..
-```
-
-moves back to:
-
-```text
-/home/chris
-```
-
----
-
-## Practical Example
-
-A simple navigation workflow might look like:
-
-```bash
-pwd
-ls
-cd Documents
-pwd
-ls
-cd ..
-pwd
-```
-
-This provides a basic workflow for identifying the current location, inspecting available directories, navigating into a directory, and returning to its parent.
+*Commands will be added as they are used.*
