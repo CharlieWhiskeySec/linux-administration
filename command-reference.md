@@ -49,3 +49,11 @@ A quick-reference guide to Linux commands I've used throughout my hands-on Linux
 ## Logs & Troubleshooting
 
 *Commands will be added as they are used.*
+
+## Command Help & Documentation
+
+| Command | Purpose |
+|---|---|
+| `man <command>` | Opens the manual page containing detailed documentation for a command. |
+| `<command> -h` | Displays abbreviated help information when supported by the command. |
+| `<command> --help` | Displays help information, available options, and command usage when supported. |
